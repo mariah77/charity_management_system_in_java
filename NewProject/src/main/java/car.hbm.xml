@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+  
+ <hibernate-mapping>  
+	 <class name="Car" table="myCar">
+		 <id name="id" type="int" column="c_id">  
+		     <generator class="native"></generator>  
+		 </id>
+		 
+		<property name="liscenceplate" type="string" column="c_liscenceplate"></property>  
+    	<property name="make" type="string" column="c_make"></property>
+    	
+    </class>
+ </hibernate-mapping> 	   

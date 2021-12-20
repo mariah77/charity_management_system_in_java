@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0" prefWidth="691.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <TextField fx:id="newCaseName" layoutX="140.0" layoutY="54.0" />
+      <Label layoutX="140.0" layoutY="27.0" text="Case Name" />
+      <TextArea fx:id="newCaseDescription" layoutX="140.0" layoutY="125.0" prefHeight="164.0" prefWidth="423.0" />
+      <Label layoutX="140.0" layoutY="99.0" text="Case Description" />
+      <Label layoutX="140.0" layoutY="308.0" text="Target" />
+      <TextField fx:id="newCaseGoal" layoutX="140.0" layoutY="334.0" />
+      <Button layoutX="174.0" layoutY="390.0" mnemonicParsing="false" onAction="#caseAdditionSuccessful" text="Add Case" />
+   </children>
+</AnchorPane>

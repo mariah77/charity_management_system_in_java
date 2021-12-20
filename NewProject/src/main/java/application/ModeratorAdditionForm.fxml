@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="705.0" prefWidth="611.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <TextField fx:id="newModeratorName" layoutX="193.0" layoutY="109.0" />
+      <Label layoutX="193.0" layoutY="64.0" text="Name" />
+      <Label layoutX="195.0" layoutY="161.0" text="Username" />
+      <TextField fx:id="newModeratorUsername" layoutX="193.0" layoutY="194.0" />
+      <Label layoutX="195.0" layoutY="241.0" text="Email" />
+      <TextField fx:id="newModeratorEmail" layoutX="195.0" layoutY="287.0" />
+      <Label layoutX="196.0" layoutY="344.0" text="Password" />
+      <Label layoutX="196.0" layoutY="424.0" text="CNIC" />
+      <TextField layoutX="195.0" layoutY="467.0" />
+      <Button layoutX="235.0" layoutY="545.0" mnemonicParsing="false" onAction="#moderatorAdditionSuccessful" text="Add Moderator" />
+      <PasswordField fx:id="newModeratorPassword" layoutX="193.0" layoutY="375.0" />
+   </children>
+</AnchorPane>

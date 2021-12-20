@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+  
+ <hibernate-mapping>  
+	 <class name="Employee" table="myEmp">
+		 <id name="id" type="int" column="emp_id">  
+		     <generator class="native"></generator>  
+		 </id>
+		 
+		<property name="name" type="string" column="emp_name"></property>  
+    	<property name="email" type="string" column="emp_mail"></property>
+    </class>
+ </hibernate-mapping> 	   
